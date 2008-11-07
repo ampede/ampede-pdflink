@@ -1,0 +1,14 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {showAboutWindow = id; showOptionsDialog = id; }; 
+            CLASS = AmpedePDF; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {aboutButton = NSButton; optionsButton = NSButton; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSSegmentedControl; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}

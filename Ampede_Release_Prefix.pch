@@ -1,0 +1,33 @@
+//
+// Prefix header for all source files of the 'Ampede' target in the 'Ampede' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+    #import <Cocoa/Cocoa.h>
+    #import <QTKit/QTKit.h>
+    #import <Quartz/Quartz.h>
+    #import <QuartzCore/CoreImage.h>
+    #import <WebKit/WebKit.h>
+#endif
+
+// Debug Values
+//#define DS_ASSERTIONS_ON
+//#define DEBUG
+
+#import "DSMacros.h"
+#import "DSUtilities.h"
+
+// Cocoa Extensions
+#import "DSExtensions.h"
+
+// Constants with extern linkage
+//DS_EXTERN NSString *DSVideoEntityPlistOfURIsPasteboardType;
+
+// Notifications with extern linkage
+//DS_EXTERN NSString *DSLayerItemsArrayControllerSelectionDidChangeNotification;
+
+// Global values 
+//DS_EXTERN int DSApplicationMode;
+

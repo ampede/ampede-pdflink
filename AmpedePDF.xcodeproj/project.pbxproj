@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		018396D90662C2C00004726E /* AmpedePDF.h in Headers */ = {isa = PBXBuildFile; fileRef = 018396D70662C2C00004726E /* AmpedePDF.h */; };
+		018396DA0662C2C00004726E /* AmpedePDF.mm in Sources */ = {isa = PBXBuildFile; fileRef = 018396D80662C2C00004726E /* AmpedePDF.mm */; };
+		552BD95E07BD6ED900220185 /* FxPlug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552BD95C07BD6ED900220185 /* FxPlug.framework */; };
+		552BD95F07BD6ED900220185 /* PluginManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552BD95D07BD6ED900220185 /* PluginManager.framework */; };
+		557A384F07C2D58B00BC8500 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 557A384D07C2D58B00BC8500 /* Localizable.strings */; };
+		557A393E07C2D5BD00BC8500 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557A393D07C2D5BD00BC8500 /* AppKit.framework */; };
+		557A394007C2D5CF00BC8500 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557A393F07C2D5CF00BC8500 /* OpenGL.framework */; };
+		8D5B49A804867FD3000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D5B49A704867FD3000E48DA /* InfoPlist.strings */; };
+		8E4705320B27629600C7FB73 /* DSAppDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4705140B27629600C7FB73 /* DSAppDefines.h */; };
+		8E4705350B27629600C7FB73 /* DSMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4705170B27629600C7FB73 /* DSMacros.h */; };
+		8E4705360B27629600C7FB73 /* DSUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4705180B27629600C7FB73 /* DSUtilities.h */; };
+		8E4705370B27629600C7FB73 /* DSUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4705190B27629600C7FB73 /* DSUtilities.m */; };
+		8E4705380B27629600C7FB73 /* NSArrayController+DSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E47051A0B27629600C7FB73 /* NSArrayController+DSExtensions.h */; };
+		8E4705390B27629600C7FB73 /* NSArrayController+DSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E47051B0B27629600C7FB73 /* NSArrayController+DSExtensions.m */; };
+		8E47053A0B27629600C7FB73 /* NSBezierPath+DSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E47051C0B27629600C7FB73 /* NSBezierPath+DSExtensions.h */; };
+		8E47053B0B27629600C7FB73 /* NSBezierPath+DSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E47051D0B27629600C7FB73 /* NSBezierPath+DSExtensions.m */; };
+		8E47053C0B27629600C7FB73 /* NSBundle+DSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E47051E0B27629600C7FB73 /* NSBundle+DSExtensions.h */; };
+		8E47053D0B27629600C7FB73 /* NSBundle+DSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E47051F0B27629600C7FB73 /* NSBundle+DSExtensions.m */; };
+		8E47053E0B27629600C7FB73 /* NSDate+DSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4705200B27629600C7FB73 /* NSDate+DSExtensions.h */; };
+		8E47053F0B27629600C7FB73 /* NSDate+DSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4705210B27629600C7FB73 /* NSDate+DSExtensions.m */; };
+		8E4705460B27629600C7FB73 /* NSObject+DSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4705280B27629600C7FB73 /* NSObject+DSExtensions.h */; };
+		8E4705470B27629600C7FB73 /* NSObject+DSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4705290B27629600C7FB73 /* NSObject+DSExtensions.m */; };
+		8E4705480B27629600C7FB73 /* NSOutlineView+DSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E47052A0B27629600C7FB73 /* NSOutlineView+DSExtensions.h */; };
+		8E4705490B27629600C7FB73 /* NSOutlineView+DSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E47052B0B27629600C7FB73 /* NSOutlineView+DSExtensions.m */; };
+		8E47054A0B27629600C7FB73 /* NSTreeController+DSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E47052C0B27629600C7FB73 /* NSTreeController+DSExtensions.h */; };
+		8E47054B0B27629600C7FB73 /* NSTreeController+DSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E47052D0B27629600C7FB73 /* NSTreeController+DSExtensions.m */; };
+		8E47054C0B27629600C7FB73 /* NSView+DSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E47052E0B27629600C7FB73 /* NSView+DSExtensions.h */; };
+		8E47054D0B27629600C7FB73 /* NSView+DSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E47052F0B27629600C7FB73 /* NSView+DSExtensions.m */; };
+		8E4705560B2762CD00C7FB73 /* Ampede_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 8E4705540B2762CD00C7FB73 /* Ampede_Prefix.pch */; };
+		8E4705570B2762CD00C7FB73 /* Ampede_Release_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 8E4705550B2762CD00C7FB73 /* Ampede_Release_Prefix.pch */; };
+		8E4705620B27632A00C7FB73 /* DSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4705610B27632A00C7FB73 /* DSExtensions.h */; };
+		8E4705770B27645900C7FB73 /* AmpedePDF.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8E4705750B27645900C7FB73 /* AmpedePDF.nib */; };
+		8E4706BA0B27659200C7FB73 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E4706B90B27659200C7FB73 /* IOKit.framework */; };
+		8E4706EC0B27672200C7FB73 /* DSAssertions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4705150B27629600C7FB73 /* DSAssertions.h */; };
+		8E4706ED0B27672300C7FB73 /* DSAssertions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4705160B27629600C7FB73 /* DSAssertions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		018396D70662C2C00004726E /* AmpedePDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmpedePDF.h; sourceTree = "<group>"; };
+		018396D80662C2C00004726E /* AmpedePDF.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AmpedePDF.mm; sourceTree = "<group>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		552BD95C07BD6ED900220185 /* FxPlug.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FxPlug.framework; path = /Library/Frameworks/FxPlug.framework; sourceTree = "<absolute>"; };
+		552BD95D07BD6ED900220185 /* PluginManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PluginManager.framework; path = /Library/Frameworks/PluginManager.framework; sourceTree = "<absolute>"; };
+		557A384E07C2D58B00BC8500 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		557A393D07C2D5BD00BC8500 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		557A393F07C2D5CF00BC8500 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		8D576316048677EA00EA77CD /* AmpedePDF.fxplug */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmpedePDF.fxplug; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D576317048677EA00EA77CD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8E4705140B27629600C7FB73 /* DSAppDefines.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DSAppDefines.h; sourceTree = "<group>"; };
+		8E4705150B27629600C7FB73 /* DSAssertions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DSAssertions.h; sourceTree = "<group>"; };
+		8E4705160B27629600C7FB73 /* DSAssertions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = DSAssertions.m; sourceTree = "<group>"; };
+		8E4705170B27629600C7FB73 /* DSMacros.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DSMacros.h; sourceTree = "<group>"; };
+		8E4705180B27629600C7FB73 /* DSUtilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DSUtilities.h; sourceTree = "<group>"; };
+		8E4705190B27629600C7FB73 /* DSUtilities.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = DSUtilities.m; sourceTree = "<group>"; };
+		8E47051A0B27629600C7FB73 /* NSArrayController+DSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSArrayController+DSExtensions.h"; sourceTree = "<group>"; };
+		8E47051B0B27629600C7FB73 /* NSArrayController+DSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSArrayController+DSExtensions.m"; sourceTree = "<group>"; };
+		8E47051C0B27629600C7FB73 /* NSBezierPath+DSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+DSExtensions.h"; sourceTree = "<group>"; };
+		8E47051D0B27629600C7FB73 /* NSBezierPath+DSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+DSExtensions.m"; sourceTree = "<group>"; };
+		8E47051E0B27629600C7FB73 /* NSBundle+DSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSBundle+DSExtensions.h"; sourceTree = "<group>"; };
+		8E47051F0B27629600C7FB73 /* NSBundle+DSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+DSExtensions.m"; sourceTree = "<group>"; };
+		8E4705200B27629600C7FB73 /* NSDate+DSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSDate+DSExtensions.h"; sourceTree = "<group>"; };
+		8E4705210B27629600C7FB73 /* NSDate+DSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DSExtensions.m"; sourceTree = "<group>"; };
+		8E4705240B27629600C7FB73 /* NSManagedObject+DSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+DSExtensions.h"; sourceTree = "<group>"; };
+		8E4705250B27629600C7FB73 /* NSManagedObject+DSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+DSExtensions.m"; sourceTree = "<group>"; };
+		8E4705260B27629600C7FB73 /* NSManagedObjectContext+DSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+DSExtensions.h"; sourceTree = "<group>"; };
+		8E4705270B27629600C7FB73 /* NSManagedObjectContext+DSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+DSExtensions.m"; sourceTree = "<group>"; };
+		8E4705280B27629600C7FB73 /* NSObject+DSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSObject+DSExtensions.h"; sourceTree = "<group>"; };
+		8E4705290B27629600C7FB73 /* NSObject+DSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DSExtensions.m"; sourceTree = "<group>"; };
+		8E47052A0B27629600C7FB73 /* NSOutlineView+DSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSOutlineView+DSExtensions.h"; sourceTree = "<group>"; };
+		8E47052B0B27629600C7FB73 /* NSOutlineView+DSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSOutlineView+DSExtensions.m"; sourceTree = "<group>"; };
+		8E47052C0B27629600C7FB73 /* NSTreeController+DSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSTreeController+DSExtensions.h"; sourceTree = "<group>"; };
+		8E47052D0B27629600C7FB73 /* NSTreeController+DSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSTreeController+DSExtensions.m"; sourceTree = "<group>"; };
+		8E47052E0B27629600C7FB73 /* NSView+DSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSView+DSExtensions.h"; sourceTree = "<group>"; };
+		8E47052F0B27629600C7FB73 /* NSView+DSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSView+DSExtensions.m"; sourceTree = "<group>"; };
+		8E4705300B27629600C7FB73 /* QTMovie+DSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "QTMovie+DSExtensions.h"; sourceTree = "<group>"; };
+		8E4705310B27629600C7FB73 /* QTMovie+DSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "QTMovie+DSExtensions.m"; sourceTree = "<group>"; };
+		8E4705540B2762CD00C7FB73 /* Ampede_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Ampede_Prefix.pch; sourceTree = "<group>"; };
+		8E4705550B2762CD00C7FB73 /* Ampede_Release_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Ampede_Release_Prefix.pch; sourceTree = "<group>"; };
+		8E4705610B27632A00C7FB73 /* DSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DSExtensions.h; sourceTree = "<group>"; };
+		8E4705760B27645900C7FB73 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/AmpedePDF.nib; sourceTree = "<group>"; };
+		8E4706B90B27659200C7FB73 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D576313048677EA00EA77CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				552BD95E07BD6ED900220185 /* FxPlug.framework in Frameworks */,
+				552BD95F07BD6ED900220185 /* PluginManager.framework in Frameworks */,
+				557A393E07C2D5BD00BC8500 /* AppKit.framework in Frameworks */,
+				557A394007C2D5CF00BC8500 /* OpenGL.framework in Frameworks */,
+				8E4706BA0B27659200C7FB73 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* AmpedePDF */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Source */,
+				8E4705530B27629F00C7FB73 /* Ampede Utilities */,
+				8E47055C0B2762FD00C7FB73 /* Ampede Extensions */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+			);
+			name = AmpedePDF;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				8E4706B90B27659200C7FB73 /* IOKit.framework */,
+				557A393D07C2D5BD00BC8500 /* AppKit.framework */,
+				557A393F07C2D5CF00BC8500 /* OpenGL.framework */,
+				552BD95D07BD6ED900220185 /* PluginManager.framework */,
+				552BD95C07BD6ED900220185 /* FxPlug.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E4705540B2762CD00C7FB73 /* Ampede_Prefix.pch */,
+				8E4705550B2762CD00C7FB73 /* Ampede_Release_Prefix.pch */,
+				8E4705750B27645900C7FB73 /* AmpedePDF.nib */,
+				557A384D07C2D58B00BC8500 /* Localizable.strings */,
+				8D576317048677EA00EA77CD /* Info.plist */,
+				8D5B49A704867FD3000E48DA /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				018396D70662C2C00004726E /* AmpedePDF.h */,
+				018396D80662C2C00004726E /* AmpedePDF.mm */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D576316048677EA00EA77CD /* AmpedePDF.fxplug */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E4705530B27629F00C7FB73 /* Ampede Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8E4705140B27629600C7FB73 /* DSAppDefines.h */,
+				8E4705150B27629600C7FB73 /* DSAssertions.h */,
+				8E4705160B27629600C7FB73 /* DSAssertions.m */,
+				8E4705170B27629600C7FB73 /* DSMacros.h */,
+				8E4705180B27629600C7FB73 /* DSUtilities.h */,
+				8E4705190B27629600C7FB73 /* DSUtilities.m */,
+			);
+			name = "Ampede Utilities";
+			sourceTree = "<group>";
+		};
+		8E47055C0B2762FD00C7FB73 /* Ampede Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8E4705610B27632A00C7FB73 /* DSExtensions.h */,
+				8E47051A0B27629600C7FB73 /* NSArrayController+DSExtensions.h */,
+				8E47051B0B27629600C7FB73 /* NSArrayController+DSExtensions.m */,
+				8E47051C0B27629600C7FB73 /* NSBezierPath+DSExtensions.h */,
+				8E47051D0B27629600C7FB73 /* NSBezierPath+DSExtensions.m */,
+				8E47051E0B27629600C7FB73 /* NSBundle+DSExtensions.h */,
+				8E47051F0B27629600C7FB73 /* NSBundle+DSExtensions.m */,
+				8E4705200B27629600C7FB73 /* NSDate+DSExtensions.h */,
+				8E4705210B27629600C7FB73 /* NSDate+DSExtensions.m */,
+				8E4705240B27629600C7FB73 /* NSManagedObject+DSExtensions.h */,
+				8E4705250B27629600C7FB73 /* NSManagedObject+DSExtensions.m */,
+				8E4705260B27629600C7FB73 /* NSManagedObjectContext+DSExtensions.h */,
+				8E4705270B27629600C7FB73 /* NSManagedObjectContext+DSExtensions.m */,
+				8E4705280B27629600C7FB73 /* NSObject+DSExtensions.h */,
+				8E4705290B27629600C7FB73 /* NSObject+DSExtensions.m */,
+				8E47052A0B27629600C7FB73 /* NSOutlineView+DSExtensions.h */,
+				8E47052B0B27629600C7FB73 /* NSOutlineView+DSExtensions.m */,
+				8E47052C0B27629600C7FB73 /* NSTreeController+DSExtensions.h */,
+				8E47052D0B27629600C7FB73 /* NSTreeController+DSExtensions.m */,
+				8E47052E0B27629600C7FB73 /* NSView+DSExtensions.h */,
+				8E47052F0B27629600C7FB73 /* NSView+DSExtensions.m */,
+				8E4705300B27629600C7FB73 /* QTMovie+DSExtensions.h */,
+				8E4705310B27629600C7FB73 /* QTMovie+DSExtensions.m */,
+			);
+			name = "Ampede Extensions";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D57630E048677EA00EA77CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018396D90662C2C00004726E /* AmpedePDF.h in Headers */,
+				8E4705320B27629600C7FB73 /* DSAppDefines.h in Headers */,
+				8E4705350B27629600C7FB73 /* DSMacros.h in Headers */,
+				8E4705360B27629600C7FB73 /* DSUtilities.h in Headers */,
+				8E4705380B27629600C7FB73 /* NSArrayController+DSExtensions.h in Headers */,
+				8E47053A0B27629600C7FB73 /* NSBezierPath+DSExtensions.h in Headers */,
+				8E47053C0B27629600C7FB73 /* NSBundle+DSExtensions.h in Headers */,
+				8E47053E0B27629600C7FB73 /* NSDate+DSExtensions.h in Headers */,
+				8E4705460B27629600C7FB73 /* NSObject+DSExtensions.h in Headers */,
+				8E4705480B27629600C7FB73 /* NSOutlineView+DSExtensions.h in Headers */,
+				8E47054A0B27629600C7FB73 /* NSTreeController+DSExtensions.h in Headers */,
+				8E47054C0B27629600C7FB73 /* NSView+DSExtensions.h in Headers */,
+				8E4705560B2762CD00C7FB73 /* Ampede_Prefix.pch in Headers */,
+				8E4705570B2762CD00C7FB73 /* Ampede_Release_Prefix.pch in Headers */,
+				8E4705620B27632A00C7FB73 /* DSExtensions.h in Headers */,
+				8E4706EC0B27672200C7FB73 /* DSAssertions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D57630D048677EA00EA77CD /* AmpedePDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E4704B60B24F73F00C7FB73 /* Build configuration list for PBXNativeTarget "AmpedePDF" */;
+			buildPhases = (
+				8D57630E048677EA00EA77CD /* Headers */,
+				8D57630F048677EA00EA77CD /* Resources */,
+				8D576311048677EA00EA77CD /* Sources */,
+				8D576313048677EA00EA77CD /* Frameworks */,
+				8D576315048677EA00EA77CD /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmpedePDF;
+			productInstallPath = "$(HOME)/Library/Plug-Ins/FxPlug";
+			productName = AmpedePDF;
+			productReference = 8D576316048677EA00EA77CD /* AmpedePDF.fxplug */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8E4704BA0B24F73F00C7FB73 /* Build configuration list for PBXProject "AmpedePDF" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* AmpedePDF */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D57630D048677EA00EA77CD /* AmpedePDF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D57630F048677EA00EA77CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49A804867FD3000E48DA /* InfoPlist.strings in Resources */,
+				557A384F07C2D58B00BC8500 /* Localizable.strings in Resources */,
+				8E4705770B27645900C7FB73 /* AmpedePDF.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D576315048677EA00EA77CD /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D576311048677EA00EA77CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018396DA0662C2C00004726E /* AmpedePDF.mm in Sources */,
+				8E4705370B27629600C7FB73 /* DSUtilities.m in Sources */,
+				8E4705390B27629600C7FB73 /* NSArrayController+DSExtensions.m in Sources */,
+				8E47053B0B27629600C7FB73 /* NSBezierPath+DSExtensions.m in Sources */,
+				8E47053D0B27629600C7FB73 /* NSBundle+DSExtensions.m in Sources */,
+				8E47053F0B27629600C7FB73 /* NSDate+DSExtensions.m in Sources */,
+				8E4705470B27629600C7FB73 /* NSObject+DSExtensions.m in Sources */,
+				8E4705490B27629600C7FB73 /* NSOutlineView+DSExtensions.m in Sources */,
+				8E47054B0B27629600C7FB73 /* NSTreeController+DSExtensions.m in Sources */,
+				8E47054D0B27629600C7FB73 /* NSView+DSExtensions.m in Sources */,
+				8E4706ED0B27672300C7FB73 /* DSAssertions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		557A384D07C2D58B00BC8500 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				557A384E07C2D58B00BC8500 /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		8D5B49A704867FD3000E48DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8E4705750B27645900C7FB73 /* AmpedePDF.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E4705760B27645900C7FB73 /* English */,
+			);
+			name = AmpedePDF.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E4704B70B24F73F00C7FB73 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				DEPLOYMENT_LOCATION = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Ampede_Prefix.pch;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Plug-Ins/FxPlug";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = BUNDLE;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AmpedePDF;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = fxplug;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		8E4704B80B24F73F00C7FB73 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEPLOYMENT_LOCATION = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Ampede_Release_Prefix.pch;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Plug-Ins/FxPlug";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = BUNDLE;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AmpedePDF;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = fxplug;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		8E4704B90B24F73F00C7FB73 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEPLOYMENT_LOCATION = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Plug-Ins/FxPlug";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = BUNDLE;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AmpedePDF;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = fxplug;
+			};
+			name = Default;
+		};
+		8E4704BB0B24F73F00C7FB73 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		8E4704BC0B24F73F00C7FB73 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		8E4704BD0B24F73F00C7FB73 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E4704B60B24F73F00C7FB73 /* Build configuration list for PBXNativeTarget "AmpedePDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4704B70B24F73F00C7FB73 /* Development */,
+				8E4704B80B24F73F00C7FB73 /* Deployment */,
+				8E4704B90B24F73F00C7FB73 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		8E4704BA0B24F73F00C7FB73 /* Build configuration list for PBXProject "AmpedePDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4704BB0B24F73F00C7FB73 /* Development */,
+				8E4704BC0B24F73F00C7FB73 /* Deployment */,
+				8E4704BD0B24F73F00C7FB73 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
